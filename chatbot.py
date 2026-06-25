@@ -21,7 +21,7 @@ st.title("🤖 Personal AI Assistant")
 # ------------------------------
 # n8n Webhook URL
 # ------------------------------
-N8N_WEBHOOK_URL = "http://localhost:5678/webhook/98fa7ae4-59aa-4da3-adf2-df486cdb0cd5"
+N8N_WEBHOOK_URL = "https://edae-2401-4900-1c0b-7a70-2c-37b9-5e48-dd89.ngrok-free.app/webhook/98fa7ae4-59aa-4da3-adf2-df486cdb0cd5"
 
 # ------------------------------
 # Chat History
