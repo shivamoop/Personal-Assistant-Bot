@@ -48,7 +48,7 @@ if prompt := st.chat_input("Ask about sales data..."):
         
         try:
             # Send request to n8n
-            response = requests.post(WEBHOOK_URL, json=payload, timeout=180)
+            response = requests.post(WEBHOOK_URL, json=payload, timeout=500)
             
             if response.status_code == 200:
                 data = response.json()
