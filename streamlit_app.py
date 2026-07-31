@@ -12,7 +12,7 @@ WEBHOOK_URL = "https://laurel-fraternal-subsonic.ngrok-free.dev/webhook/chat"
 
 st.set_page_config(page_title="Sales Assistant AI", page_icon="📈")
 st.title("📈 Sales Data Assistant")
-st.markdown("Ask me anything about Matriderm and Natrox sales, or specific employee performance!")
+st.markdown("Welcome! I'm your Sales Data Assistant. Ask me anything about Matriderm sales performance, employee metrics, and zone-level breakdowns!")
 
 # Initialize session state for memory
 if "session_id" not in st.session_state:
